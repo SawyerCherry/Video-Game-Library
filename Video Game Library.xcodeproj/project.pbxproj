@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F29DD2C1213836BB00034BAD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29DD2C0213836BB00034BAD /* main.swift */; };
 		F29DD2C821384A7800034BAD /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29DD2C721384A7800034BAD /* Menu.swift */; };
-		F2D7D472213EBBAC0058B551 /* Game Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7D471213EBBAC0058B551 /* Game Class.swift */; };
+		F2D7D472213EBBAC0058B551 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7D471213EBBAC0058B551 /* Game.swift */; };
 		F2D7D474213EC05A0058B551 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D7D473213EC05A0058B551 /* Library.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		F29DD2BD213836BA00034BAD /* Video Game Library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Video Game Library"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29DD2C0213836BB00034BAD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F29DD2C721384A7800034BAD /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		F2D7D471213EBBAC0058B551 /* Game Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game Class.swift"; sourceTree = "<group>"; };
+		F2D7D471213EBBAC0058B551 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		F2D7D473213EC05A0058B551 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +65,7 @@
 			children = (
 				F29DD2C0213836BB00034BAD /* main.swift */,
 				F29DD2C721384A7800034BAD /* Menu.swift */,
-				F2D7D471213EBBAC0058B551 /* Game Class.swift */,
+				F2D7D471213EBBAC0058B551 /* Game.swift */,
 				F2D7D473213EC05A0058B551 /* Library.swift */,
 			);
 			path = "Video Game Library";
@@ -130,7 +130,7 @@
 			files = (
 				F29DD2C821384A7800034BAD /* Menu.swift in Sources */,
 				F2D7D474213EC05A0058B551 /* Library.swift in Sources */,
-				F2D7D472213EBBAC0058B551 /* Game Class.swift in Sources */,
+				F2D7D472213EBBAC0058B551 /* Game.swift in Sources */,
 				F29DD2C1213836BB00034BAD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

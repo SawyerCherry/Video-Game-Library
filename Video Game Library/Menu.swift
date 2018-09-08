@@ -20,8 +20,8 @@ class Menu {
             1 Add Game
             2 Remove Game
             3 List Available Games
-            4 Check Out Games
-            5 Check In Games
+            4 Check Out Game
+            5 Check In Game
             6 List Checked Out Games
             7 Help
             8 Quit
@@ -39,14 +39,13 @@ class Menu {
             }
             handleInput(input)
         } while !shouldQuit
-       
-            var input = getInput()
-            
-            while validateInput(input) == false {
-                print("Invalid Input")
-                input = getInput()
-            }
-            
+        
+        var input = getInput()
+        
+        while validateInput(input) == false {
+            print("Invalid Input")
+            input = getInput()
+        }
         
     }
     
@@ -56,21 +55,24 @@ class Menu {
             library.addGame()
             help()
         case "2":
-           library.removeGame()
+            library.removeGame()
             help()
         case "3":
-            library.listAvailibleGames()
+            library.listAvailableGames()
             help()
         case "4":
-            print("Check out game not implemented yet")
+            library.checkGameOut()
+            help()
         case "5":
-            print("Check in game not iplemented yet")
+            library.checkGameIn()
+            help()
         case "6":
-            print("lest checked out games not implemented yet")
+            library.listUnavailibleGames()
+            help()
         case "7":
-            print("")
+            help()
         case "8":
-            shouldQuit == true
+            shouldQuit = true
         default:
             break
         }
@@ -99,10 +101,3 @@ class Menu {
         return input!
     }
 }
-
-
-
-
-
-
-
